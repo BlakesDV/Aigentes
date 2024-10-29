@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a1731c991cdce44bed2f6cc66b7a59, type: 3}
+  m_Name: StayPatrol_EnemyScript
+  m_EditorClassIdentifier: 
+  prefabOfTheEnemy: {fileID: 3775132121667213172, guid: af48e12970ee4164e95fa7532c9ac477, type: 3}
+  positionToSpawn: {x: -1, y: 1, z: -1}
+  rotationToSpawn: {x: 0, y: 30, z: 0}
+  prefabOfASliceOfTheCone: {fileID: 8468245964880151862, guid: 08622cf038b2a4262b3cbb4f5aefdda8, type: 3}
+  coneVisionAngle: 90
+  coneVisionDistance: 1.75
+  patrolScript:
+  - actionToExecute: 2
+    speedOrTime: -1
+    destinyVector: {x: 0, y: 0, z: 0}
